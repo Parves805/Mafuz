@@ -1,0 +1,16 @@
+{
+  "node": {
+    "406b970799c04dc790d1f78c172ed170e29f509085": {
+      "workers": {
+        "app/checkout/page": {
+          "moduleId": "[project]/.next-internal/server/app/checkout/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/generate-order-email.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/checkout/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

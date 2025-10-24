@@ -1,0 +1,28 @@
+{
+  "node": {
+    "409e8c26d0758e2c66003b734dfe0090830ad6e629": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/product-recommendations.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "405fb183ab55b09fa52963c1b87ba1234d5e0a0ee7": {
+      "workers": {
+        "app/admin/orders/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/orders/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/generate-status-update-email.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/orders/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "8QrLPuNQ6yWzFcGspSGlWgSciyxKQZSxK/Pka0L4Kro="
+}
